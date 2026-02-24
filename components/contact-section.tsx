@@ -11,7 +11,7 @@ export function ContactSection() {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative py-28 md:py-36 bg-white text-white overflow-hidden"
+      className="relative py-8 md:py-24 bg-white text-white overflow-hidden"
     >
       {/* Background Image */}
       <div
@@ -42,7 +42,7 @@ export function ContactSection() {
         </p>
         <h2
           data-animate="fade-up"
-          className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-8 text-balance"
+          className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 md:mb-8 text-balance"
           style={{ transitionDelay: "0.3s" }}
         >
           브랜드에 진심을 담아,
@@ -51,7 +51,7 @@ export function ContactSection() {
         </h2>
         <p
           data-animate="fade-up"
-          className="text-neutral-200 text-base md:text-lg leading-relaxed max-w-xl mb-12"
+          className="text-neutral-200 text-base md:text-lg leading-relaxed max-w-xl mb-6 md:mb-12"
           style={{ transitionDelay: "0.4s" }}
         >
           지금 바로 상담을 시작하세요. 픽스애드가 브랜드의 성장을 함께
