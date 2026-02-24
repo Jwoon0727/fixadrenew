@@ -2,6 +2,7 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
+import Image from "next/image";
 
 export function ContactSection() {
   const sectionRef = useScrollAnimation();
@@ -16,7 +17,7 @@ export function ContactSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url(/hero/con.jpeg)",
+          backgroundImage: "url(/hero/contact.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -63,7 +64,7 @@ export function ContactSection() {
           style={{ transitionDelay: "0.5s" }}
         >
           <a
-            href="https://open.kakao.com/"
+            href="https://pf.kakao.com/_eCxoxoxj"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 text-sm font-medium tracking-wide hover:bg-neutral-100 transition-colors duration-300 group"

@@ -54,7 +54,7 @@ const services = [
     subtitle: "유튜브",
     description: "유튜브 SEO, 키워드 세팅, 채널 운영 등",
     icon: Users,
-    image: "/images/services/google.jpeg",
+    image: "/images/services/you.jpg",
   },
 ];
 
@@ -112,7 +112,7 @@ export function ServicesSection() {
             <div
               key={service.number}
               data-animate="fade-up"
-              className="relative border border-neutral-200 border-t-0 group hover:border-neutral-400 hover:shadow-xl transition-all duration-500 overflow-hidden min-h-[500px] md:min-h-[550px] rounded-lg"
+              className="relative border border-neutral-200 border-t-0 group hover:border-neutral-400 hover:shadow-xl transition-all duration-500 overflow-hidden min-h-[380px] md:min-h-[420px] rounded-lg"
               style={{ transitionDelay: `${0.1 + index * 0.1}s` }}
             >
               {/* 배경 이미지 */}
@@ -169,7 +169,7 @@ export function ServicesSection() {
                 key={service.number}
                 className="flex-[0_0_85%] min-w-0 pl-6 pr-2"
               >
-                <div className="relative border border-neutral-200 border-t-0 group hover:border-neutral-400 hover:shadow-xl transition-all duration-500 overflow-hidden h-[550px] rounded-lg">
+                <div className="relative border border-neutral-200 border-t-0 group hover:border-neutral-400 hover:shadow-xl transition-all duration-500 overflow-hidden h-[420px] rounded-lg">
                   {/* 배경 이미지 */}
                   <div className="absolute inset-0">
                     <Image

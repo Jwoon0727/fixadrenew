@@ -47,6 +47,7 @@ const logos: Logo[] = [
   { name: "Logo32", src: "/marqeelogo/32.png", width: 120, height: 40 },
   { name: "Logo33", src: "/marqeelogo/33.png", width: 120, height: 40 },
   { name: "Logo34", src: "/marqeelogo/34.png", width: 120, height: 40 },
+  { name: "Logo35", src: "/marqeelogo/35.png", width: 120, height: 40 },
 ];
 
 function MarqueeRow({
@@ -113,9 +114,9 @@ function MarqueeRow({
 }
 
 export default function LogoMarquee() {
-  const firstRow = logos.slice(0, 10);
-  const secondRow = logos.slice(10, 20);
-  const thirdRow = logos.slice(20, 30);
+  const firstRow = logos.slice(0, 13);
+  const secondRow = logos.slice(13, 26);
+  const thirdRow = logos.slice(26, 35);
 
   return (
     <section className="w-full pt-5 md:pt-8 pb-5 md:pb-8 overflow-hidden bg-white text-[#0a0a0a] relative">
