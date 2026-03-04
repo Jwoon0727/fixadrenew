@@ -1,13 +1,12 @@
 // MarqueeSection.tsx
 export function MarqueeSection() {
   const items = [
-    "GOOGLE SEO",
-    "NAVER SEO",
+    "GOOGLE",
+    "NAVER",
     "INSTAGRAM",
     "XIAOHONGSHU",
-    "DIANPING",
-    "YOUTUBE",
-    "BUSINESS PROFILE",
+    "INSTAGRAM",
+    "INFLUENCER",
   ];
 
   // 한 세트를 2번 붙여서 끊김 없는 루프 만들기

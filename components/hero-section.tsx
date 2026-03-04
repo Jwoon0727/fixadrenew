@@ -7,7 +7,7 @@ const OPTIONS = { loop: true };
 const SLIDES = [
   {
     label: "slide_1",
-    src: "/hero/5.png",
+    src: "/images/gallery/1.jpg",
   },
 ];
 
@@ -23,13 +23,13 @@ export function HeroSection() {
           mixBlendMode: "difference",
         }}
       >
-        <img
+        {/* <img
           src="hero/logo.png"
           alt="logo_center"
           style={{
             transform: "translateY(-50%)",
           }}
-        />
+        /> */}
       </div>
     </div>
   );

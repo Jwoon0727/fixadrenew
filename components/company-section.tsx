@@ -6,7 +6,7 @@ import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 // 갤러리 이미지 데이터 (12장)
-const galleryImages = Array.from({ length: 12 }, (_, i) => ({
+const galleryImages = Array.from({ length: 11 }, (_, i) => ({
   id: i + 1,
   src: `/images/gallery/${i + 1}.jpg`,
   alt: `갤러리 이미지 ${i + 1}`,
@@ -94,7 +94,7 @@ export function CompanySection() {
             >
               <div className="text-center">
                 <p className="text-white text-4xl md:text-5xl font-bold mb-2 group-hover:scale-110 transition-transform">
-                  +4
+                  +3
                 </p>
                 <p className="text-neutral-400 text-sm tracking-wide group-hover:text-white transition-colors">
                   더보기

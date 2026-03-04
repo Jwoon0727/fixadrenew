@@ -2,7 +2,6 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
-import Image from "next/image";
 
 export function ContactSection() {
   const sectionRef = useScrollAnimation();
@@ -11,21 +10,9 @@ export function ContactSection() {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative py-8 md:py-24 bg-white text-white overflow-hidden"
+      className="relative py-8 md:py-24 text-white overflow-hidden"
     >
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: "url(/hero/contact.png)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/60" />
-      </div>
+      <div className="absolute inset-0 z-0 bg-[#0a0a0a]" />
 
       {/* Content */}
       <div
