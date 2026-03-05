@@ -7,9 +7,17 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fixadd.vercel.app"),
   title: "FIXAD - 진심이 만든 전략, 증명하는 성과",
   description:
     "픽스애드 | 구글 SEO, 네이버 SEO, 인스타그램 마케팅, 글로벌 체험단 전문 디지털 마케팅 에이전시",
+  openGraph: {
+    images: ["/hero/logo.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/hero/logo.png"],
+  },
   icons: {
     icon: [
       {
