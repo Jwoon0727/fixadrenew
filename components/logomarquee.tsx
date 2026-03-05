@@ -34,7 +34,7 @@ const logos: Logo[] = [
   { name: "Logo19", src: "/marqeelogo/19.png", width: 120, height: 40 },
   { name: "Logo20", src: "/marqeelogo/20.png", width: 120, height: 40 },
   { name: "Logo21", src: "/marqeelogo/21.png", width: 120, height: 40 },
-  { name: "Logo22", src: "/marqeelogo/22.png", width: 120, height: 40 },
+  { name: "Logo22", src: "/marqeelogo/22e.png", width: 120, height: 40 },
   { name: "Logo23", src: "/marqeelogo/23.png", width: 120, height: 40 },
   { name: "Logo24", src: "/marqeelogo/24.png", width: 120, height: 40 },
   { name: "Logo25", src: "/marqeelogo/25.png", width: 120, height: 40 },
