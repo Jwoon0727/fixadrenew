@@ -52,6 +52,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <meta
+          property="og:image"
+          content="https://fixadd.vercel.app/hero/logo.png"
+        />
+        <meta
+          property="og:image:url"
+          content="https://fixadd.vercel.app/hero/logo.png"
+        />
+        <meta
+          name="twitter:image"
+          content="https://fixadd.vercel.app/hero/logo.png"
+        />
+      </head>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
