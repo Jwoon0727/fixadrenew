@@ -55,15 +55,15 @@ export default function RootLayout({
       <head>
         <meta
           property="og:image"
-          content="https://fixadd.vercel.app/hero/logo.png"
+          content="https://fixadd.vercel.app/hero/logo.png?v=2"
         />
         <meta
           property="og:image:url"
-          content="https://fixadd.vercel.app/hero/logo.png"
+          content="https://fixadd.vercel.app/hero/logo.png?v=2"
         />
         <meta
           name="twitter:image"
-          content="https://fixadd.vercel.app/hero/logo.png"
+          content="https://fixadd.vercel.app/hero/logo.png?v=2"
         />
       </head>
       <body className="font-sans antialiased">
