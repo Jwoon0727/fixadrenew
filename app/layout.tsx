@@ -6,7 +6,7 @@ import "./globals.css";
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
-const SITE_URL = "https://fixadd.vercel.app";
+const SITE_URL = "https://www.fixadcompany.com";
 const SITE_NAME = "픽스애드 - FIXAD";
 const DEFAULT_TITLE =
   "네이버 SEO, 구글 SEO 전문 | 픽스애드 - 인스타그램 마케팅, 글로벌 체험단";

@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const SITE_URL = "https://fixadd.vercel.app";
+const SITE_URL = "https://www.fixadcompany.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
