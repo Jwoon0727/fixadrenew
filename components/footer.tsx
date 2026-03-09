@@ -16,7 +16,7 @@ export function Footer() {
             className="object-contain"
           />
           <p className="text-neutral-500 text-xs mt-3 tracking-wide">
-            픽스애드(FIXAD) | 주식회사 주식회사 진심픽스(JINSIMFIX Co., Ltd.)
+            픽스애드(FIXAD) | 주식회사 진심픽스(JINSIMFIX Co., Ltd.)
           </p>
         </div>
 

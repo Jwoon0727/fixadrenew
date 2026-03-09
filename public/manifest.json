@@ -1,0 +1,27 @@
+{
+  "name": "픽스애드 FIXAD - 디지털 마케팅",
+  "short_name": "픽스애드",
+  "description": "구글 SEO, 네이버 SEO, 인스타그램 마케팅, 글로벌 체험단 전문 디지털 마케팅 에이전시",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#111111",
+  "lang": "ko",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/hero/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/hero/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "marketing"],
+  "prefer_related_applications": false
+}
