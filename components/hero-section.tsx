@@ -1,6 +1,6 @@
 "use client";
 
-const VIDEO_SRC = "/hero/fixadVi.mp4";
+const VIDEO_SRC = "/hero/fixadVid.mp4";
 
 export function HeroSection() {
   return (
