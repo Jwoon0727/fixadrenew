@@ -1,6 +1,5 @@
 import { Navigation } from "@/components/navigation";
 import { HeroSection } from "@/components/hero-section";
-import { MarqueeSection } from "@/components/marquee-section";
 import { ServicesSection } from "@/components/services-section";
 import { CompanySection } from "@/components/company-section";
 import { ContactSection } from "@/components/contact-section";
@@ -13,7 +12,6 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <div data-theme="light" className="w-full">
-        <MarqueeSection />
         <ServicesSection />
       </div>
       <CompanySection />
