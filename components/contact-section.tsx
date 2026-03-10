@@ -57,8 +57,8 @@ export function ContactSection() {
           className="text-neutral-600 text-base md:text-lg leading-relaxed max-w-xl mb-6 md:mb-12"
           style={{ transitionDelay: "0.4s" }}
         >
-          지금 바로 상담을 시작하세요. 픽스애드가 브랜드의 성장을 함께
-          설계합니다.
+          지금 바로 상담 문의하세요 :) <br />
+          픽스애드가 당신의 든든한 마케팅 파트너가 되겠습니다.
         </p>
 
         <div

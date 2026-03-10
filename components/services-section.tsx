@@ -11,26 +11,26 @@ const services = [
   {
     number: "01",
     title: "Google",
-    subtitle: "구글 SEO",
+    subtitle: "구글",
     description: "구글맵, 비즈니스 프로필 관리 및 세팅 등",
     icon: Globe,
-    image: "/images/services/google.jpeg",
+    image: "/images/services/Google.jpg",
   },
   {
     number: "02",
     title: "Naver",
-    subtitle: "네이버 SEO",
+    subtitle: "네이버",
     description: "플레이스, 블로그, 퍼포먼스 솔루션 등",
     icon: Search,
-    image: "/images/services/naver.jpeg",
+    image: "/images/services/Naver.jpg",
   },
   {
     number: "03",
     title: "Instagram",
-    subtitle: "인스타그램 퍼널",
+    subtitle: "인스타그램",
     description: "콘텐츠 기획, CPC 등",
     icon: Instagram,
-    image: "/images/services/inst.jpg",
+    image: "/images/services/Instagram.jpg",
   },
   {
     number: "04",
@@ -38,7 +38,7 @@ const services = [
     subtitle: "중국마케팅",
     description: "왕홍 체험단, 기업 인증, 계정 관리 대행 등",
     icon: Users,
-    image: "/images/services/sha.jpg",
+    image: "/images/services/Xiaohongshu.jpg",
   },
   {
     number: "05",
@@ -46,15 +46,15 @@ const services = [
     subtitle: "따종디엔핑",
     description: "매장 등록, CPC 등",
     icon: Users,
-    image: "/images/services/dda.jpg",
+    image: "/images/services/Dianping.jpg",
   },
   {
     number: "06",
-    title: "Youtube",
-    subtitle: "유튜브",
-    description: "유튜브 SEO, 키워드 세팅, 채널 운영 등",
+    title: "Influencer",
+    subtitle: "인플루언서",
+    description: "인플루언서, 셀럽, 키워드 세팅, 채널 운영 등",
     icon: Users,
-    image: "/images/services/you.jpg",
+    image: "/images/services/Influencer.jpg",
   },
 ];
 
@@ -99,8 +99,8 @@ export function ServicesSection() {
           className="text-neutral-500 text-base md:text-lg leading-relaxed max-w-md"
           style={{ transitionDelay: "0.2s" }}
         >
-          브랜드의 목표에 가장 정확히 맞는 방식으로 결과 중심의 마케팅 캠페인을
-          설계합니다.
+          브랜드의 목표에 가장 정확히 맞는 방식으로, 결과 중심의 마케팅 성장
+          전략을 설계합니다.
         </p>
       </div>
 

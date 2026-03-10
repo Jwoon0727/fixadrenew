@@ -1,20 +1,19 @@
 "use client";
 
-import EmblaCarousel from "./EmblaCarousel";
-
-const OPTIONS = { loop: true };
-
-const SLIDES = [
-  {
-    label: "slide_1",
-    src: "/images/gallery/1.jpg",
-  },
-];
+const VIDEO_SRC = "/hero/fixadVi.mp4";
 
 export function HeroSection() {
   return (
-    <div id="hero" className="bg-gray-100 h-screen relative">
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+    <div id="hero" className="bg-gray-100 h-screen relative overflow-hidden">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src={VIDEO_SRC} type="video/mp4" />
+      </video>
       <div
         className="absolute inset-x-1/2 inset-y-1/2 w-32 lg:w-48 h-auto z-20"
         style={{
